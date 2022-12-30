@@ -1,4 +1,4 @@
 first commit
 second commit
-third commit
+third committ
 forth commit
