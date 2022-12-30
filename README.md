@@ -1,3 +1,3 @@
 # Git Workflow
 
-A repository to learn **GIT** from beginner to advanced.
+A repo to learn **GIT** from beginner to advanced.
