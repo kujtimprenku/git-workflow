@@ -1,0 +1,52 @@
+{
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 1,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1672739440827,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should render a button",
+          "status": "passed",
+          "title": "should render a button",
+          "duration": 45,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should show the help area after clicking the button",
+          "status": "failed",
+          "title": "should show the help area after clicking the button",
+          "duration": 54,
+          "failureMessages": [
+            "\u001b[2mexpect(\u001b[22m\u001b[31melement\u001b[39m\u001b[2m).not.toBeInTheDocument()\u001b[22m\n\n\u001b[31mexpected document not to contain element, found <section\n  data-testid=\"help-area\"\n  id=\"help-area\"\n>\n  <article\n    class=\"help-box\"\n  >\n    <h2>\n      What is Git?\n    </h2>\n    <p>\n      Git is a version control system, helping you to manage your code and create code snapshots.\n    </p>\n  </article>\n  <article\n    class=\"help-box\"\n  >\n    <h2>\n      What is GitHub?\n    </h2>\n    <p>\n      GitHub is a company and online offering, providing you with tons of Git-related services (e.g., cloud repositories).\n    </p>\n  </article>\n  <article\n    class=\"help-box\"\n  >\n    <h2>\n      What is GitHub Actions?\n    </h2>\n    <p>\n      GitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.\n    </p>\n  </article>\n</section> instead\u001b[39m"
+          ],
+          "location": {
+            "line": 29,
+            "column": 71
+          }
+        }
+      ],
+      "startTime": 1672739442719,
+      "endTime": 1672739442818,
+      "status": "failed",
+      "message": "",
+      "name": "C:/Users/Kujtim.Prenku/NEAR-SQA/kujtimprenku/git-workflow/src/components/MainContent.test.jsx"
+    }
+  ]
+}
