@@ -27,6 +27,7 @@ jobs:
       - name: Deploy project
         run: echo "Deploying..."
   report:
+    if: failure()
     runs-on: ubuntu-latest
     steps:
       - name: Output information
