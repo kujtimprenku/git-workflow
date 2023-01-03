@@ -2,7 +2,7 @@ name: Website Deployment (execution flow)
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   lint:
     runs-on: ubuntu-latest
