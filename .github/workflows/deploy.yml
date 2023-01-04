@@ -1,8 +1,8 @@
-name: Deployment
+name: Deployment via Custom Action
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   lint:
     runs-on: ubuntu-latest
